@@ -1,4 +1,4 @@
-Voici l'historique de mes CTF :
+Voici l'historique de mes CTF pour lesquels j'ai réussi à obtenir des points :
 
 | ANNEE|MOIS| CTF                       | POINTS | PLACE (IND)     | CRENEAU                                 | DUREE  |
 |:----:|:--:|---------------------------|:------:|:---------------:|:---------------------------------------:|:------:|
