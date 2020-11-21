@@ -1,6 +1,6 @@
 Voici l'historique des CTF auxquels j'ai participé et pour lesquels j'ai réussi à obtenir des points :
 
-|NUMERO|ANNEE |MOIS| CTF                       | POINTS | PLACE (IND)     |
+|NUMERO|ANNEE |MOIS| CTF                       | POINTS | PLACE           |
 |:----:|:----:|:--:|---------------------------|:------:|:---------------:|
 |12    | 2020 | 11 | m0leCon CTF 2020          | 56     | 256 / 276 (7)   |
 |11    | 2020 | 11 | Decompetition             | 18     | 98 / 112 (13)   |
