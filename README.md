@@ -2,12 +2,12 @@
 
 Voici l'historique des CTF auxquels j'ai participé et pour lesquels j'ai réussi à obtenir des points :
 
-|NUMERO|ANNEE |MOIS| CTF                       | POINTS | PLACE                                                  |
-|:----:|:----:|:--:|---------------------------|:------:|:------------------------------------------------------:|
-|13    | 2020 | 11 | Dragon CTF 2020           | 42     | ![](https://img.shields.io/badge/-459%20%2F%20539-red) |
-|12    | 2020 | 11 | m0leCon CTF 2020          | 56     | ![](https://img.shields.io/badge/-256%20%2F%20276-red) |
-|11    | 2020 | 11 | Decompetition             | 18     | ![](https://img.shields.io/badge/-98%20%2F%20112-red)  |
-|10    | 2020 | 10 | Newark Academy CTF 2020   | 1150   | 480 / 968  |
+|NUMERO|ANNEE |MOIS| CTF                       | POINTS | PLACE                                                     |
+|:----:|:----:|:--:|---------------------------|:------:|:---------------------------------------------------------:|
+|13    | 2020 | 11 | Dragon CTF 2020           | 42     | ![](https://img.shields.io/badge/-459%20%2F%20539-red)    |
+|12    | 2020 | 11 | m0leCon CTF 2020          | 56     | ![](https://img.shields.io/badge/-256%20%2F%20276-red)    |
+|11    | 2020 | 11 | Decompetition             | 18     | ![](https://img.shields.io/badge/-98%20%2F%20112-red)     |
+|10    | 2020 | 10 | Newark Academy CTF 2020   | 1150   | ![](https://img.shields.io/badge/-480%20%2F%20968-orange) |
 |9     | 2020 | 10 | CyberYoddha CTF 2020      | 2775   | 270 / 681  |
 |8     | 2020 | 10 | CyberSecurityRumble CTF   | 100    | 343 / 474  |
 |7     | 2020 | 10 | RaziCTF 2020              | 633    | 207 / 314  |
