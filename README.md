@@ -10,7 +10,7 @@ Voici l'historique des CTF auxquels j'ai participé et pour lesquels j'ai réuss
 |10    | 2020 | 10 | Newark Academy CTF 2020   | 1150   | ![](https://img.shields.io/badge/-480%20%2F%20968-orange) |
 |9     | 2020 | 10 | CyberYoddha CTF 2020      | 2775   | ![](https://img.shields.io/badge/-270%20%2F%20681-orange) |
 |8     | 2020 | 10 | CyberSecurityRumble CTF   | 100    | ![](https://img.shields.io/badge/-343%20%2F%20474-orange) |
-|7     | 2020 | 10 | RaziCTF 2020              | 633    | 207 / 314  |
+|7     | 2020 | 10 | RaziCTF 2020              | 633    | ![](https://img.shields.io/badge/-207%20%2F%20314-orange) |
 |6     | 2020 | 10 | MetaCTF CyberGames 2020   | 1025   | 742 / 995  |
 |5     | 2020 | 10 | Hack The Vote 2020        | 1      | 212 / 278  |
 |4     | 2020 | 10 | Syskron Security CTF 2020 | 220    | 589 / 1029 |
