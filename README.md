@@ -1,4 +1,4 @@
-# Catch The Flag (CTF) par Zyrfex
+# Capture The Flag (CTF) par Zyrfex
 
 Voici l'historique des CTF auxquels j'ai participé et pour lesquels j'ai réussi à obtenir des points :
 
