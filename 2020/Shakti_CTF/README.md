@@ -63,7 +63,8 @@ Elle est principalement connue pour sa participation au décryptage de la machin
 ```
 
 L'image *config.jpg* m'a permis d'identifier le site [DCODE](https://www.dcode.fr).  
-J'effectue donc une seconde recherche sur Google de *dcode enigma* et je trouve la page suivante : https://www.dcode.fr/chiffre-machine-enigma
+J'effectue donc une seconde recherche sur Google de *dcode enigma* et je trouve la page suivante :  
+https://www.dcode.fr/chiffre-machine-enigma
 
 Je copie/colle le texte et je configure les paramètres comem sur l'image :
 ```
