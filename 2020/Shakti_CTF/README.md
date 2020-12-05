@@ -41,3 +41,17 @@ Il faut simplement se rendre sur le [Discord](https://discord.gg/gEJUZwe9ju) pui
 ```
 shaktictf{i_solemly_swear_that_me_and_my_team_are_all_women}
 ```
+
+## Cryptography
+
+### 3,2,1..Go (50)
+
+<p align="center">
+  <img src="https://github.com/Zyrfex/CTF/blob/main/2020/Shakti_CTF/images/3_2_1_Go.png" alt="3,2,1..Go" align="center">
+</p>
+
+Le fichier *config.jpg* est le suivant :
+
+<p align="center">
+  <img src="https://github.com/Zyrfex/CTF/blob/main/2020/Shakti_CTF/images/config.jpg" alt="config.jpg" align="center">
+</p>
