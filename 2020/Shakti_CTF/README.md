@@ -13,7 +13,9 @@ shaktictf{[A-Za-z0-9_]*}
 
 ### Connect (50 - Very Easy)
 
-![Connect](https://github.com/Zyrfex/CTF/blob/main/2020/Shakti_CTF/images/connect.png)
+<p align="center">
+  <img src="https://github.com/Zyrfex/CTF/blob/main/2020/Shakti_CTF/images/connect.png" alt="Connect" align="center">
+</p>
 
 On se connecte avec netcat :
 ```
