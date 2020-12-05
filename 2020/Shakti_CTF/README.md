@@ -17,6 +17,21 @@ shaktictf{[A-Za-z0-9_]*}
   <img src="https://github.com/Zyrfex/CTF/blob/main/2020/Shakti_CTF/images/Just-Run-It.png" alt="Just-Run-It!" align="center">
 </p>
 
+Après avoir téléchargé le fichier, on lui donne les droits d'exécution :
+```
+chmod +x run
+```
+
+Et on le lance avec la commande suivante :
+```
+./run
+```
+
+Et on récupère le flag :
+```
+shaktictf{and_that's_how_you_run_a_linux_binary!}
+```
+
 ## Pwn
 
 ### Connect (50)
