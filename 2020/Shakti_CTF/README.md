@@ -6,6 +6,8 @@ Le flag a le format suivant :
 shaktictf{[A-Za-z0-9_]*}
 ```
 
+*Je n'ai pas eu le temps de rédiger la suite, l'accès aux épreuves n'est plus possible, désolé.*
+
 ## Misc
 
 ### Sanity Check (1)
