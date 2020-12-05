@@ -9,9 +9,17 @@ shaktictf{[A-Za-z0-9_]*}
 
 *Je n'ai pas eu le temps de rédiger la suite, l'accès aux épreuves n'est plus possible, désolé.*
 
+## Reversing
+
+### Just-Run-It! (50)
+
+<p align="center">
+  <img src="https://github.com/Zyrfex/CTF/blob/main/2020/Shakti_CTF/images/Just-Run-It.png" alt="Just-Run-It!" align="center">
+</p>
+
 ## Pwn
 
-### Connect (50 - Very Easy)
+### Connect (50)
 
 <p align="center">
   <img src="https://github.com/Zyrfex/CTF/blob/main/2020/Shakti_CTF/images/connect.png" alt="Connect" align="center">
@@ -31,7 +39,7 @@ shaktictf{w3lc0me_t0_th3_ar3na_c0mrade}
 
 ## Misc
 
-### Sanity Check (1 - Very Easy)
+### Sanity Check (1)
 Il faut simplement se rendre sur le [Discord](https://discord.gg/gEJUZwe9ju) puis dans la catégorie "CTF INFORMATION" et enfin dans le salon "rules", on y trouve le flag :
 
 <p align="center">
