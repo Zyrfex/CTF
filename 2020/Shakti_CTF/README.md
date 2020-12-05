@@ -58,10 +58,12 @@ Le fichier *config.jpg* est le suivant :
 
 Une recherche sur Google de *Joan Clarke* me permet de trouver l'information suivante sur Wikipedia :
 ```
-Joan Elisabeth Lowther Murray, née Clarke le 24 juin 1917 et morte le 4 septembre 1996, est une cryptologue britannique. Elle est principalement connue pour sa participation au décryptage de la machine Enigma qui codait les communications chiffrées du Troisième Reich.
+Joan Elisabeth Lowther Murray, née Clarke le 24 juin 1917 et morte le 4 septembre 1996, est une cryptologue britannique.  
+Elle est principalement connue pour sa participation au décryptage de la machine Enigma qui codait les communications chiffrées du Troisième Reich.
 ```
 
-L'image *config.jpg* m'a permis d'identifier le site [DCODE](https://www.dcode.fr). J'effectue donc une seconde recherche sur Google de *dcode enigma* et je trouve la page suivante : https://www.dcode.fr/chiffre-machine-enigma
+L'image *config.jpg* m'a permis d'identifier le site [DCODE](https://www.dcode.fr).  
+J'effectue donc une seconde recherche sur Google de *dcode enigma* et je trouve la page suivante : https://www.dcode.fr/chiffre-machine-enigma
 
 Je copie/colle le texte et je configure les paramètres comem sur l'image :
 ```
@@ -73,7 +75,7 @@ J'obtiens la chaine suivante :
 YOUHAVECRACKEDTHEENIGMAGENIUS
 ```
 
-Qui me donne le flga suivant :
+Qui me donne le flag suivant :
 ```
 shaktictf{you_have_cracked_the_enigma_genius}
 ```
