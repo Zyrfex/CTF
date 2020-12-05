@@ -1,6 +1,7 @@
 # Shakti CTF
 
-Vous trouverez ci-dessous une partie de mes solutions pour ce CTF.  
+Vous trouverez ci-dessous mes solutions pour ce CTF.  
+  
 Le flag a le format suivant :
 ```
 shaktictf{[A-Za-z0-9_]*}
