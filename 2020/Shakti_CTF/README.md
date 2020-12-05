@@ -55,3 +55,25 @@ Le fichier *config.jpg* est le suivant :
 <p align="center">
   <img src="https://github.com/Zyrfex/CTF/blob/main/2020/Shakti_CTF/images/config.jpg" alt="config.jpg" align="center">
 </p>
+
+Une recherche sur Google de *Joan Clarke* me permet de trouver l'information suivante sur Wikipedia :
+```
+Joan Elisabeth Lowther Murray, née Clarke le 24 juin 1917 et morte le 4 septembre 1996, est une cryptologue britannique. Elle est principalement connue pour sa participation au décryptage de la machine Enigma qui codait les communications chiffrées du Troisième Reich.
+```
+
+L'image *config.jpg* m'a permis d'identifier le site [DCODE](https://www.dcode.fr). J'effectue donc une seconde recherche sur Google de *dcode enigma* et je trouve la page suivante : https://www.dcode.fr/chiffre-machine-enigma
+
+Je copie/colle le texte et je configure les paramètres comem sur l'image :
+```
+WEQEXFTUXQHVOUFPSVLPTORHAFBQE
+```
+
+J'obtiens la chaine suivante :
+```
+YOUHAVECRACKEDTHEENIGMAGENIUS
+```
+
+Qui me donne le flga suivant :
+```
+shaktictf{you_have_cracked_the_enigma_genius}
+```
