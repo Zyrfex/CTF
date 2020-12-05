@@ -20,7 +20,7 @@ On se connecte avec netcat :
 nc 34.72.218.129 1111
 ```
 
-On tape la commande *ls* qui nous donne une liste de fichiers dans laquelle il y a une fichier **flag.txt**.
+On tape la commande *ls* qui nous donne une liste de fichiers dans laquelle il y a un fichier **flag.txt**.
 
 On tape la commande *cat flag.txt* pour afficher le contenu du fichier :
 ```
