@@ -71,7 +71,7 @@ Je copie/colle le texte et je configure les paramètres comem sur l'image :
 WEQEXFTUXQHVOUFPSVLPTORHAFBQE
 ```
 
-J'obtiens la chaine suivante :
+J'obtiens la phrase suivante :
 ```
 YOUHAVECRACKEDTHEENIGMAGENIUS
 ```
