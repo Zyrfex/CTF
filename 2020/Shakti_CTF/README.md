@@ -56,6 +56,16 @@ shaktictf{G00d!_c0nTinUe_Expl0r1nG_Mor3}
   <img src="https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Reversing/Damez/Damez.png" alt="Damez" align="center">
 </p>
 
+Après avoir récupéré l'exécutable [damez](https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Reversing/Damez/damez), on lui donne le droit d'exécution :
+```
+chmod +x damez
+```
+
+Et on le lance avec la commande suivante :
+```
+./damez
+```
+
 ## Pwn
 
 ### Connect (50)
