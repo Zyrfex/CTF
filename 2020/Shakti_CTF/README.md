@@ -95,6 +95,10 @@ You got it! Flag: shaktictf{K33p_th3_gam3_g0ing_gurl!}
 
 ### Shark on Wire (50 - Very Easy)
 
+<p align="center">
+  <img src="https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Forensics/Shark%20on%20Wire/Shark%20on%20Wire.png" alt="Shark on Wire" align="center">
+</p>
+
 ## Pwn
 
 ### Connect (50)
