@@ -17,17 +17,17 @@ shaktictf{[A-Za-z0-9_]*}
   <img src="https://github.com/Zyrfex/CTF/blob/main/2020/Shakti_CTF/Reversing/Just-Run-It!/Just-Run-It!.png" alt="Just-Run-It!" align="center">
 </p>
 
-Après avoir téléchargé le fichier [run](https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Reversing/Just-Run-It!/run), on lui donne le droit d'exécution :
+Après avoir téléchargé le fichier [run](https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Reversing/Just-Run-It!/run), nous lui donnons le droit d'exécution :
 ```bash
 chmod +x run
 ```
 
-Et on le lance avec la commande suivante :
+Puis nous l'exécutons avec la commande suivante :
 ```bash
 ./run
 ```
 
-Et on récupère le flag :
+Et nous récupérons le flag :
 ```
 shaktictf{and_that's_how_you_run_a_linux_binary!}
 ```
@@ -40,7 +40,7 @@ shaktictf{and_that's_how_you_run_a_linux_binary!}
 
 Après avoir récupére le fichier [PYthn.py](https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Reversing/PYthn/PYthn.py), une analyse rapide du code nous permet de déterminer que la fonction **fuN()** n'est pas utilisée.
 
-On utilise les fonctions dans le sens inverse pour récupérer notre flag :
+Nous utilisons les fonctions dans le sens inverse pour récupérer notre flag :
 ```python
 print("Le flag est : " + Fun(FuN(Q)))
 ```
@@ -56,12 +56,12 @@ shaktictf{G00d!_c0nTinUe_Expl0r1nG_Mor3}
   <img src="https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Reversing/Damez/Damez.png" alt="Damez" align="center">
 </p>
 
-Après avoir récupéré l'exécutable [damez](https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Reversing/Damez/damez), on lui donne le droit d'exécution :
+Après avoir récupéré l'exécutable [damez](https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Reversing/Damez/damez), nous lui donnons le droit d'exécution :
 ```bash
 chmod +x damez
 ```
 
-Et on le lance avec la commande suivante :
+Et nous l'exécutons avec la commande suivante :
 ```bash
 ./damez
 ```
@@ -69,6 +69,26 @@ Et on le lance avec la commande suivante :
 Il nous affiche le message suivant :
 ```
 Error! file input.txt not found
+```
+
+L'exécution du programme après avoir créé un fichier **input.txt** avec n'importe quoi dedans nous donne le message suivant :
+```
+Try Again! :)
+```
+
+Avant d'aller plus loin, nous allons regarder si le flag peut être récupéré par le biais des chaînes de caractères présentes dans l'exécutable avec la commande suivante :
+```bash
+strings damez | awk 'length($0)>9'
+```
+
+Dans la liste qui s'affiche, nous trouvons notre flag :
+```
+shaktictf{K33p_th3_gam3_g0ing_gurl!}
+```
+
+L'analyse du code, a postériori, nous permettra de comprendre qu'il fallait que le fichier **input.txt** contienne le flag pour obtenir le message de validation :
+```
+You got it! Flag: shaktictf{K33p_th3_gam3_g0ing_gurl!}
 ```
 
 ## Pwn
