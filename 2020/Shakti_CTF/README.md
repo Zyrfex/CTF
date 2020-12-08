@@ -38,9 +38,7 @@ shaktictf{and_that's_how_you_run_a_linux_binary!}
   <img src="https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Reversing/PYthn/PYthn.png" alt="PYthn" align="center">
 </p>
 
-Vous pouvez récupérer le fichier **PYthn.py** ici : [PYthn.py](https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Reversing/PYthn/PYthn.py)
-
-Une analyse rapide du code nous permet de déterminer que la fonction **fuN()** n'est pas utilisée.
+Après avoir récupére le fichier [PYthn.py](https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Reversing/PYthn/PYthn.py), une analyse rapide du code nous permet de déterminer que la fonction **fuN()** n'est pas utilisée.
 
 On utilise les fonctions dans le sens inverse pour récupérer notre flag :
 ```python
