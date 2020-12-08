@@ -50,6 +50,12 @@ L'exécution du code ci-dessus nous donne le flag :
 shaktictf{G00d!_c0nTinUe_Expl0r1nG_Mor3}
 ```
 
+### Damez (100 - Easy)
+
+<p align="center">
+  <img src="https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Reversing/Damez/Damez.png" alt="Damez" align="center">
+</p>
+
 ## Pwn
 
 ### Connect (50)
