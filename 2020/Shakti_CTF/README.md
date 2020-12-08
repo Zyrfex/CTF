@@ -49,7 +49,7 @@ print("Le flag est : " + Fun(FuN(Q)))
 
 L'exécution du code ci-dessus nous donne le flag :
 ```
-G00d!_c0nTinUe_Expl0r1nG_Mor3
+shaktictf{G00d!_c0nTinUe_Expl0r1nG_Mor3}
 ```
 
 ## Pwn
