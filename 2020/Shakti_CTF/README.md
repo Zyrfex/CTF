@@ -11,7 +11,7 @@ shaktictf{[A-Za-z0-9_]*}
 
 ## Reversing
 
-### Just-Run-It! (50)
+### Just-Run-It! (50) - Very Easy
 
 <p align="center">
   <img src="https://github.com/Zyrfex/CTF/blob/main/2020/Shakti_CTF/Reversing/Just-Run-It!/Just-Run-It!.png" alt="Just-Run-It!" align="center">
