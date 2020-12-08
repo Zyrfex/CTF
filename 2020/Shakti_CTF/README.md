@@ -99,6 +99,8 @@ You got it! Flag: shaktictf{K33p_th3_gam3_g0ing_gurl!}
   <img src="https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Forensics/Shark%20on%20Wire/Shark%20on%20Wire.png" alt="Shark on Wire" align="center">
 </p>
 
+Après avoir récupéré le fichier [network1.pcapng](https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Forensics/Shark%20on%20Wire/network1.pcapng), nous l'analysons dans Wireshark.
+
 ## Pwn
 
 ### Connect (50)
