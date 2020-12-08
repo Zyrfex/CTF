@@ -18,12 +18,12 @@ shaktictf{[A-Za-z0-9_]*}
 </p>
 
 Après avoir téléchargé le fichier [run](https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Reversing/Just-Run-It!/run), on lui donne le droit d'exécution :
-```
+```bash
 chmod +x run
 ```
 
 Et on le lance avec la commande suivante :
-```
+```bash
 ./run
 ```
 
@@ -57,13 +57,18 @@ shaktictf{G00d!_c0nTinUe_Expl0r1nG_Mor3}
 </p>
 
 Après avoir récupéré l'exécutable [damez](https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Reversing/Damez/damez), on lui donne le droit d'exécution :
-```
+```bash
 chmod +x damez
 ```
 
 Et on le lance avec la commande suivante :
-```
+```bash
 ./damez
+```
+
+Il nous affiche le message suivant :
+```
+Error! file input.txt not found
 ```
 
 ## Pwn
@@ -75,7 +80,7 @@ Et on le lance avec la commande suivante :
 </p>
 
 On se connecte avec netcat :
-```
+```bash
 nc 34.72.218.129 1111
 ```
 
