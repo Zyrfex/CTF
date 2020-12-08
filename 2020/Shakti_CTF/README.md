@@ -32,6 +32,12 @@ Et on récupère le flag :
 shaktictf{and_that's_how_you_run_a_linux_binary!}
 ```
 
+### PYthn (100 - Easy)
+
+<p align="center">
+  <img src="https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Reversing/PYthn/PYthn.png" alt="PYthn" align="center">
+</p>
+
 ## Pwn
 
 ### Connect (50)
