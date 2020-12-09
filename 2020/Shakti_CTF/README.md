@@ -363,17 +363,19 @@ Here is your flag: shaktictf{G00d!_b3st_0f_luck_f0r_th3_n3xt_chall3nge}
 ### Connect (50)
 
 <p align="center">
-  <img src="https://github.com/Zyrfex/CTF/blob/main/2020/Shakti_CTF/images/connect.png" alt="Connect" align="center">
+  <img src="https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Pwn/Connect/Connect.png" alt="Connect" align="center">
 </p>
 
-On se connecte avec netcat :
+Vous pouvez récupérer le binaire ici : [chall](https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Pwn/Connect/chall)
+
+Nous nous connectons avec **netcat** :
 ```bash
 nc 34.72.218.129 1111
 ```
 
-On tape la commande *ls* qui nous donne une liste de fichiers dans laquelle il y a un fichier **flag.txt**.
+Nous tapons la commande **ls** qui nous donne une liste de fichiers dans laquelle il y a un fichier **flag.txt**.
 
-On tape la commande *cat flag.txt* pour afficher le contenu du fichier :
+Nous tapons la commande **cat flag.txt** pour afficher le contenu du fichier :
 ```
 shaktictf{w3lc0me_t0_th3_ar3na_c0mrade}
 ```
