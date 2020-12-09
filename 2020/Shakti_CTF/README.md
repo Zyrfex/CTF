@@ -284,6 +284,19 @@ Et nous obtenons notre flag :
 shaktictf{sh3_w4s_h0n0r3d_by_3lectr0nic_fr0nti3r_f0und4ti0n}
 ```
 
+## Steganography
+
+### Hidd3n (100 - Easy)
+
+<p align="center">
+  <img src="https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Steganography/Hidd3n/Hidd3n.png" alt="Hidd3n" align="center">
+</p>
+
+Il nous faut donc trouver le flag dans l'image ci-dessous : [image.jpg](https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Steganography/Hidd3n/image.jpg)
+<p align="center">
+  <img src="https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Steganography/Hidd3n/image.jpg" alt="image.jpg" align="center">
+</p>
+
 ## Pwn
 
 ### Connect (50)
