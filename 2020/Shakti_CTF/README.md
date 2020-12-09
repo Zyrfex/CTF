@@ -467,3 +467,18 @@ Et nous obtenons notre flag :
 ```
 shaktictf{old3r_1s_n0t_alw4ys_th3_b3tt3r!}
 ```
+
+### SimpleRSA (100 - Easy)
+
+<p align="center">
+  <img src="https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Cryptography/SimpleRSA/SimpleRSA.png" alt="SimpleRSA" align="center">
+</p>
+
+Coici le contenu du fichier [enc.txt](https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Cryptography/SimpleRSA/enc.txt) :
+```
+Here's a simple RSA challenge for you. 
+n = 6823097956559906304718047559434503772935670794168872682087986860491266565197938988585578012131795379682740793915178580560097648572207445450501957620442660379247761L
+e = 65537
+c = 484661494807973176484841550022162356056969394230726278907827156279573785417739620605749085238379352332325669223692676583758711843467179784519220209212809010990483
+```
+
