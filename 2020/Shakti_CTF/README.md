@@ -297,6 +297,52 @@ Il nous faut donc trouver le flag dans l'image ci-dessous : [image.jpg](https://
   <img src="https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Steganography/Hidd3n/image.jpg" alt="image.jpg" align="center">
 </p>
 
+Dans un premier temps, nous analysons le fichier avec *exiftool* :
+```bash
+exiftool image.jpg
+```
+
+Celui-ci contient un commentaire encodé, surement en *base64* :
+```
+ExifTool Version Number         : 12.10
+File Name                       : image.jpg
+Directory                       : .
+File Size                       : 44 kB
+File Modification Date/Time     : 2020:12:04 13:43:06-05:00
+File Access Date/Time           : 2020:12:04 13:43:25-05:00
+File Inode Change Date/Time     : 2020:12:04 13:43:17-05:00
+File Permissions                : rw-------
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+JFIF Version                    : 1.01
+Resolution Unit                 : None
+X Resolution                    : 1
+Y Resolution                    : 1
+Comment                         : cGFzc3BocmFzZT1qdTV0ZmluZG0z
+Image Width                     : 800
+Image Height                    : 600
+Encoding Process                : Baseline DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:4:4 (1 1)
+Image Size                      : 800x600
+Megapixels                      : 0.480
+
+```
+
+Essayons de décoder ce commentaire avec la commande suivante :
+```bash
+echo "cGFzc3BocmFzZT1qdTV0ZmluZG0z" | base64 -d
+```
+
+Bingo :
+```
+passphrase=ju5tfindm3
+```
+
+
+
 ## Pwn
 
 ### Connect (50)
