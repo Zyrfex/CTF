@@ -246,6 +246,14 @@ Voilà notre flag :
 shaktictf{y4yYYyyY!_Y0u_g0t_1t_409515398}
 ```
 
+### Not That Easy (200 - Medium)
+
+<p align="center">
+  <img src="https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Forensics/Not%20That%20Easy/Not%20That%20Easy.png" alt="Not That Easy" align="center">
+</p>
+
+Après avoir récupéré le fichier [network2.pcapng](https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Forensics/Not%20That%20Easy/network2.pcapng), nous l'analysons dans Wireshark.
+
 ## Pwn
 
 ### Connect (50)
