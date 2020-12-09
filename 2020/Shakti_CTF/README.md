@@ -214,7 +214,7 @@ EOCDR found ( 1    243)...
         zip warning: skipping this signature...
 ```
 
-Essayons de décompresser à nouveau notre fichier :
+Essayons de décompresser ce nouveau fichier réparé :
 ```
 unzip fixed.zip
 ```
