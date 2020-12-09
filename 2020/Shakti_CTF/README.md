@@ -138,7 +138,40 @@ Password:h4ckTh35t3R30tyP35
   inflating: file.zip
 ```
 
+L'utilisation de la même commande sur ce nouveau fichier nous permet de constater qu'il est corrompu.  
+Ce qui est confirmé par la commande suivante :
+```bash
+file file.zip
+```
 
+Dont voici le résultat :
+```
+file.zip: data
+```
+
+Alors que nous devrions avoir quelque chose de ce type :
+```
+challenge.zip: Zip archive data, at least v2.0 to extract
+```
+
+Dans un premier temps, regardons son entête et principalement ses **magics bytes** qui devraitent être **50 4B 03 04** :
+```bash
+xxd file.zip | head
+```
+
+Voici son entête où les **magics bytes** sont différents 50 4B **08 09** :
+```
+00000000: 504b 0809 1400 0900 0800 cb9b 8451 222d  PK...........Q"-
+00000010: e8d4 5300 0000 4900 0000 0800 1c00 666c  ..S...I.......fl
+00000020: 6167 2e74 7874 5554 0900 03f5 40ca 5ff5  ag.txtUT....@._.
+00000030: 40ca 5f75 780b 0001 04e8 0300 0004 e803  @._ux...........
+00000040: 0000 aba5 6617 c7d6 4cd2 d12c 04bc 10a3  ....f...L..,....
+00000050: 1113 3fad acbe f197 6972 95dc 0fe5 9f45  ..?.....ir.....E
+00000060: 2144 7180 4c58 19bb 7a49 e2ed a075 c7e9  !Dq.LX..zI...u..
+00000070: 758a 9c20 3378 5072 b312 502e a047 8c98  u.. 3xPr..P..G..
+00000080: 349e e77e 141e 0090 dfaf 3f6e 39de 925e  4..~......?n9..^
+00000090: b18e 7c13 5a50 4b07 0822 2de8 d453 0000  ..|.ZPK.."-..S..
+```
 
 ## Pwn
 
