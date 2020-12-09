@@ -126,6 +126,20 @@ shaktictf{wir3sh4rk_i5_ju5t_aw3s0m3}
   <img src="https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Forensics/Zip%20Zap%20Zoo/Zip%20Zap%20Zoo.png" alt="Zip Zap Zoo" align="center">
 </p>
 
+Après avoir téléchargé le fichier [challenge.zip](https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Forensics/Zip%20Zap%20Zoo/challenge.zip), nous le décompressons avec la commande suivante :
+```bash
+unzip challenge.zip
+```
+
+Lors de la décompression, nous obtenons un fichier **file.zip** et un mot de passe :
+```
+Archive:  challenge.zip
+Password:h4ckTh35t3R30tyP35
+  inflating: file.zip
+```
+
+
+
 ## Pwn
 
 ### Connect (50)
