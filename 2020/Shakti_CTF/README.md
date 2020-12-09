@@ -120,6 +120,12 @@ Nous récupérons notre flag :
 shaktictf{wir3sh4rk_i5_ju5t_aw3s0m3}
 ```
 
+### Zip Zap Zoo (100 - Easy)
+
+<p align="center">
+  <img src="https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Forensics/Zip%20Zap%20Zoo/Zip%20Zap%20Zoo.png" alt="Zip Zap Zoo" align="center">
+</p>
+
 ## Pwn
 
 ### Connect (50)
