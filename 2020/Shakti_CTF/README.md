@@ -7,7 +7,7 @@ Le flag a le format suivant :
 shaktictf{[A-Za-z0-9_]*}
 ```
 
-*Je n'ai pas eu le temps de rédiger la suite, l'accès aux épreuves n'est plus possible, désolé.*
+*Je n'ai pas eu le temps de rédiger la suite, l'accès aux épreuves Web n'est plus possible, désolé.*
 
 ## Reversing
 
