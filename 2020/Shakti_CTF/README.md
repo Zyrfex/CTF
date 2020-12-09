@@ -7,8 +7,6 @@ Le flag a le format suivant :
 shaktictf{[A-Za-z0-9_]*}
 ```
 
-*Je n'ai pas eu le temps de rédiger la suite, l'accès aux épreuves Web n'est plus possible, désolé.*
-
 ## Reversing
 
 ### Just-Run-It! (50 - Very Easy)
@@ -507,3 +505,5 @@ Et notre flag :
 ```
 shaktictf{Gr3a7-g01ng-g1rl-Y4yyy!!}
 ```
+
+*Je n'ai pas eu le temps de rédiger la suite, l'accès aux épreuves Web n'est plus possible, désolé.*
