@@ -159,7 +159,7 @@ Dans un premier temps, regardons son entête et principalement ses **magics byte
 xxd file.zip | head
 ```
 
-Voici son entête où les **magics bytes** sont différents 50 4B **08 09** :
+Voici son entête, nous remarquons que les **magics bytes** sont différents 50 4B **08 09** :
 ```
 00000000: 504b 0809 1400 0900 0800 cb9b 8451 222d  PK...........Q"-
 00000010: e8d4 5300 0000 4900 0000 0800 1c00 666c  ..S...I.......fl
