@@ -254,12 +254,25 @@ shaktictf{y4yYYyyY!_Y0u_g0t_1t_409515398}
 
 Après avoir récupéré le fichier [network2.pcapng](https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Forensics/Not%20That%20Easy/network2.pcapng), nous l'analysons dans Wireshark.
 
-Nous utilisons la même méthode que celle utilisée pour **Shark on Wire** pour filtrer la conversation.
+Nous utilisons la même méthode que celle utilisée dans l'épreuve **Shark on Wire** pour filtrer la conversation.
+
+Nous constatons dans les données la présence des caractères "PNG" qui semblent nous aiguiller vers une image de ce format. 
 
 Après avoir sélectionné la ligne dont la colonne **Length** est la plus élevée, nous faisons un clic droit sur la partie **Data** puis dans le menu nous choisissons **Exporter Paquets Octets** :
 <p align="center">
   <img src="https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Forensics/Not%20That%20Easy/wireshark1.png" alt="Wireshark 1" align="center">
 </p>
+
+Nous enregistrons nos données sous le nom **image.png** :
+<p align="center">
+  <img src="https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Forensics/Not%20That%20Easy/wireshark2.png" alt="Wireshark 2" align="center">
+</p>
+
+Nous récupérons cette image :
+<p align="center">
+  <img src="https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Forensics/Not%20That%20Easy/image.png" alt="image.png" align="center">
+</p>
+
 
 ## Pwn
 
