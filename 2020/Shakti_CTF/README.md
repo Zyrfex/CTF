@@ -449,3 +449,21 @@ Et nous obtenons notre flag :
 ```
 shaktictf{W4rmUp_Ch4ll3ng3}
 ```
+
+### Ancient Warfare (50)
+
+<p align="center">
+  <img src="https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Cryptography/Ancient%20Warfare/Ancient%20Warfare.png" alt="Ancient Warfare" align="center">
+</p>
+
+Voici la donnée sur laquelle nous devons travailler :
+```
+funxgvpgs{byq3e_1f_a0g_nyj4lf_gu3_o3gg3e!}
+```
+
+Nous utiliserons à nouveau l'outil en ligne [CyberChef - The Cyber Swiss Army Knife](https://gchq.github.io/CyberChef/#recipe=ROT13(true,true,13)&input=ZnVueGd2cGdze2J5cTNlXzFmX2EwZ19ueWo0bGZfZ3UzX28zZ2czZSF9)
+
+Et nous obtenons notre flag :
+```
+shaktictf{old3r_1s_n0t_alw4ys_th3_b3tt3r!}
+```
