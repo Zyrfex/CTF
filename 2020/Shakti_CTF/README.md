@@ -101,7 +101,9 @@ You got it! Flag: shaktictf{K33p_th3_gam3_g0ing_gurl!}
 
 Après avoir récupéré le fichier [network1.pcapng](https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Forensics/Shark%20on%20Wire/network1.pcapng), nous l'analysons dans Wireshark.
 
-Nous allons consulter les statistiques des conversations via le menu **Statistiques** puis **Conversations**. Puis, dans cette nouvelle fenêtre, nous cliquons sur l'entête de la colonne "Bytes" afin que celle-ci soit classée en ordre croissant :
+Nous allons consulter les statistiques des conversations via le menu **Statistiques** puis **Conversations**.
+
+Dans cette nouvelle fenêtre, nous cliquons sur l'entête de la colonne **Bytes** afin que celle-ci soit classée en ordre croissant, nous effectuons un click droit sur la dernière ligne (celle qui contient le plus de données) et dans le menu qui s'affiche, nous sélectionnons **Appliquer comme un filtre** puis **Sélectionné** et enfin **A <-> B** :
 
 <p align="center">
   <img src="https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Forensics/Shark%20on%20Wire/wireshark1.png" alt="Wireshark 1" align="center">
