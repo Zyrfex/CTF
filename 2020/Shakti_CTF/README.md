@@ -226,7 +226,7 @@ Archive:  fixed.zip
   inflating: flag.txt
 ```
 
-Le fichier flag.txt est extrait de l'archive lisons le :
+Le fichier *flag.txt* est extrait de l'archive, lisons le :
 ```bash
 cat flag.txt
 ```
