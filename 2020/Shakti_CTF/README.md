@@ -258,7 +258,7 @@ Nous utilisons la même méthode que celle utilisée dans l'épreuve **Shark on 
 
 Nous constatons dans les données la présence des caractères "PNG" qui semblent nous aiguiller vers une image de ce format. 
 
-Après avoir sélectionné la ligne dont la colonne **Length** est la plus élevée, nous faisons un clic droit sur la partie **Data** puis dans le menu nous choisissons **Exporter Paquets Octets** :
+Après avoir sélectionné la ligne dont la colonne **Length** est la plus élevée, nous faisons un clic droit sur la partie **Data** puis dans le menu nous choisissons **Exporter Paquets Octets...** :
 <p align="center">
   <img src="https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Forensics/Not%20That%20Easy/wireshark1.png" alt="Wireshark 1" align="center">
 </p>
@@ -273,6 +273,16 @@ Nous récupérons cette image :
   <img src="https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Forensics/Not%20That%20Easy/image.png" alt="image.png" align="center">
 </p>
 
+Nous voyons tout de suite qu'il s'agit d'un QRCode, nous le lisons de cette manière :
+```bash
+sudo apt install zbar-tools
+zbarimg image.png
+```
+
+Et nous obtenons notre flag :
+```
+shaktictf{sh3_w4s_h0n0r3d_by_3lectr0nic_fr0nti3r_f0und4ti0n}
+```
 
 ## Pwn
 
