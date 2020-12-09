@@ -297,12 +297,12 @@ Il nous faut donc trouver le flag dans l'image ci-dessous : [image.jpg](https://
   <img src="https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Steganography/Hidd3n/image.jpg" alt="image.jpg" align="center">
 </p>
 
-Dans un premier temps, nous analysons le fichier avec *exiftool* :
+Dans un premier temps, nous analysons le fichier avec **exiftool** :
 ```bash
 exiftool image.jpg
 ```
 
-Celui-ci contient un commentaire encodé, surement en *base64* :
+Celui-ci contient un commentaire encodé, surement en **base64** :
 ```
 ExifTool Version Number         : 12.10
 File Name                       : image.jpg
@@ -336,12 +336,27 @@ Essayons de décoder ce commentaire avec la commande suivante :
 echo "cGFzc3BocmFzZT1qdTV0ZmluZG0z" | base64 -d
 ```
 
-Bingo :
+Bingo, ce qui nous laisse penser qu'un fichier est caché dans l'image :
 ```
 passphrase=ju5tfindm3
 ```
 
+Nous allons l'extraire avec la commande :
+```bash
+steghide --extract -sf image.jpg -p ju5tfindm3
+```
 
+Puis lire le ficher **flag.txt** avec la commande :
+```
+cat flag.txt
+```
+
+Voilà notre flag :
+```
+"In engineering, the point is to get the job done, and people are happy to help. You should be generous with credit, and you should be happy to help others." Who am I?
+
+Here is your flag: shaktictf{G00d!_b3st_0f_luck_f0r_th3_n3xt_chall3nge}
+```
 
 ## Pwn
 
