@@ -360,7 +360,7 @@ Here is your flag: shaktictf{G00d!_b3st_0f_luck_f0r_th3_n3xt_chall3nge}
 
 ## Pwn
 
-### Connect (50)
+### Connect (50 - Very Easy)
 
 <p align="center">
   <img src="https://github.com/Zyrfex/CTF/raw/main/2020/Shakti_CTF/Pwn/Connect/Connect.png" alt="Connect" align="center">
