@@ -173,6 +173,79 @@ Voici son entête où les **magics bytes** sont différents 50 4B **08 09** :
 00000090: b18e 7c13 5a50 4b07 0822 2de8 d453 0000  ..|.ZPK.."-..S..
 ```
 
+Nous corrigeons l'entête en remplaçant 50 4B **08 09** par 50 4B **03 04** et enregistrons nos modifications :
+```bash
+sudo apt install hexedit
+hexedit file.zip
+```
+
+L'utilisation à nouveau de la commande *unzip file.zip* nous donne encore une erreur :
+```
+Archive:  file.zip
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of file.zip or
+        file.zip.zip, and cannot find file.zip.ZIP, period.
+```
+
+Nous allons donc réparer le fichier avec la commande suivante :
+```bash
+zip -FF file.zip --out fixed.zip
+```
+
+Qui nous donne le résultat suivant :
+```
+Fix archive (-FF) - salvage what can
+        zip warning: Missing end (EOCDR) signature - either this archive
+                     is not readable or the end is damaged
+Is this a single-disk archive?  (y/n): y
+  Assuming single-disk archive
+Scanning for entries...
+ copying: flag.txt  (83 bytes)
+Central Directory found...
+EOCDR found ( 1    243)...
+        zip warning: unexpected signature 50 4b 0e 0d on disk 0 at 662196
+
+        zip warning: skipping this signature...
+        zip warning: unexpected signature 50 4b 0e 0d on disk 0 at 5704878
+
+        zip warning: skipping this signature...
+```
+
+Essayons de décompresser à nouveau notre fichier :
+```
+unzip fixed.zip
+```
+
+Un mot de passe nous est demandé, nous utilisons celui récupéré au début : h4ckTh35t3R30tyP35
+```
+Archive:  fixed.zip
+[fixed.zip] flag.txt password:
+  inflating: flag.txt
+```
+
+Le fichier flag.txt est extrait de l'archive lisons le :
+```bash
+cat flag.txt
+```
+
+Nous récupérons une chaîne de caractères qui peut s'apparenter à du *base32* :
+```
+ONUGC23UNFRXIZT3PE2HSWKZPF4VSIK7LEYHKX3HGB2F6MLUL42DAOJVGE2TGOJYPU======
+```
+
+Essayons de la décoder :
+```bash
+echo "ONUGC23UNFRXIZT3PE2HSWKZPF4VSIK7LEYHKX3HGB2F6MLUL42DAOJVGE2TGOJYPU======" | base32 -d
+```
+
+Voilà notre flag :
+```
+shaktictf{y4yYYyyY!_Y0u_g0t_1t_409515398}
+```
+
 ## Pwn
 
 ### Connect (50)
