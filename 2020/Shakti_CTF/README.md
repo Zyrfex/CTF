@@ -482,7 +482,7 @@ e = 65537
 c = 484661494807973176484841550022162356056969394230726278907827156279573785417739620605749085238379352332325669223692676583758711843467179784519220209212809010990483
 ```
 
-Nous allons utiliser [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool) que nous installrons ainsi :
+Nous allons utiliser [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool) que nous installerons ainsi :
 ```bash
 git clone https://github.com/Ganapati/RsaCtfTool.git
 sudo apt-get install libgmp3-dev libmpc-dev
