@@ -4,7 +4,7 @@ Voici l'historique des CTF auxquels j'ai participé et pour lesquels j'ai réuss
 
 |NUMERO|ANNEE |MOIS| CTF                       | POINTS | PLACE                                                           |
 |:----:|:----:|:--:|---------------------------|:------:|:---------------------------------------------------------------:|
-|15    | 2020 | 12 | #kksctf open 2020         | 10     | ![](https://img.shields.io/badge/-178%20%2F%20229-red)          |
+|15    | 2020 | 12 | #KKSCTF Open 2020         | 10     | ![](https://img.shields.io/badge/-178%20%2F%20229-red)          |
 |14 |2020 |12 |[Shakti CTF](https://github.com/Zyrfex/CTF/blob/main/2020/Shakti_CTF/README.md) |1301 |![](https://img.shields.io/badge/-49%20%2F%20277-brightgreen)|
 |13    | 2020 | 11 | Dragon CTF 2020           | 42     | ![](https://img.shields.io/badge/-459%20%2F%20539-red)          |
 |12    | 2020 | 11 | m0leCon CTF 2020          | 56     | ![](https://img.shields.io/badge/-256%20%2F%20276-red)          |
