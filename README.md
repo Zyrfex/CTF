@@ -4,6 +4,8 @@ Voici l'historique des CTF auxquels j'ai participé et pour lesquels j'ai réuss
 
 |NUMERO|ANNEE |MOIS| CTF                       | POINTS | PLACE                                                           |
 |:----:|:----:|:--:|---------------------------|:------:|:---------------------------------------------------------------:|
+|18    | 2020 | 12 | VULNCON CTF 2020          | 100    | ![](https://img.shields.io/badge/-345%20%2F%20442-red)          |
+|17    | 2020 | 12 | hxp CTF 2020              | 19     | ![](https://img.shields.io/badge/-251%20%2F%20532-orange)       |
 |16    | 2020 | 12 | #KKSCTF Open 2020         | 10     | ![](https://img.shields.io/badge/-178%20%2F%20229-red)          |
 |15    | 2020 | 12 | ASIS CTF Finals 2020      | 20     | ![](https://img.shields.io/badge/-191%20%2F%20351-orange)       |
 |14 |2020 |12 |[Shakti CTF](https://github.com/Zyrfex/CTF/blob/main/2020/Shakti_CTF/README.md) |1301 |![](https://img.shields.io/badge/-49%20%2F%20277-brightgreen)|
