@@ -33,4 +33,4 @@ Et voici notre flag :
   <img src="https://raw.githubusercontent.com/Zyrfex/CTF/main/2021/0xL4ughCTF/Misc/1990/1990.png" alt="1990" align="center">
 </p>
 
-Le fichier est ici : [1990.zip](https://raw.githubusercontent.com/Zyrfex/CTF/main/2021/0xL4ughCTF/Misc/1990/1990.zip)
+Le fichier de l'épreuve est ici : [1990.zip](https://raw.githubusercontent.com/Zyrfex/CTF/main/2021/0xL4ughCTF/Misc/1990/1990.zip)
