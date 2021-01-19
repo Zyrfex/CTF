@@ -26,3 +26,11 @@ Et voici notre flag :
 ```
 0xL4ugh{welc0m3_t0_Our_Firs7_CTF}
 ```
+
+### 1990 (100)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Zyrfex/CTF/main/2021/0xL4ughCTF/Misc/1990/1990.png" alt="1990" align="center">
+</p>
+
+Le fichier est ici : [1990.zip](https://raw.githubusercontent.com/Zyrfex/CTF/main/2021/0xL4ughCTF/Misc/1990/1990.zip)
