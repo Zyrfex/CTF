@@ -41,3 +41,13 @@ J'utilise le site [Detect DTMF Tones](http://dialabc.com/sound/detect/) et j'obt
 ```
 66#666#8#33#888#33#777#999#8#44#444#66#4#666#66#7777#2#6#33#9#2#999#
 ```
+
+J'obtiens le texte suivant avec le site [Code Téléphone Multi-tap (SMS)](https://www.dcode.fr/code-multitap-abc) :
+```
+NOTEVERYTHINGONSAMEWAY
+```
+
+Ce qui me donne le flag ci-dessous :
+```
+0xL4ugh{NOTEVERYTHINGONSAMEWAY}
+```
