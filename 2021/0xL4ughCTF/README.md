@@ -34,3 +34,10 @@ Et voici notre flag :
 </p>
 
 Le fichier de l'épreuve est ici : [1990.zip](https://raw.githubusercontent.com/Zyrfex/CTF/main/2021/0xL4ughCTF/Misc/1990/1990.zip)
+
+L'écoute du fichier WAV nous permet d'obtenir une piste : la composition de numéros sur un clavier de téléphone.
+
+J'utilise le site [Detect DTMF Tones](http://dialabc.com/sound/detect/) et j'obtiens la chaîne de caractères suivantes :
+```
+66#666#8#33#888#33#777#999#8#44#444#66#4#666#66#7777#2#6#33#9#2#999#
+```
