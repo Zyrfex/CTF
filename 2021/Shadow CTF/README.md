@@ -17,7 +17,7 @@ shadowCTF{[A-Za-z0-9_]+}
 
 Le fichier de l'épreuve est disponible ici : [Intro](https://github.com/Zyrfex/CTF/raw/main/2021/Shadow%20CTF/Reverse%20Engineering/Warm-up/Intro)
 
-Je charge le programme dans [Ghidra](https://ghidra-sre.org/) et j'affiche la fonction main :
+Je charge le programme dans [Ghidra](https://ghidra-sre.org/) et j'affiche la fonction **main** :
 <p align="center">
   <img src="https://raw.githubusercontent.com/Zyrfex/CTF/main/2021/Shadow%20CTF/Reverse%20Engineering/Warm-up/Ghidra.png" alt="Ghidra" align="center">
 </p>
@@ -35,7 +35,7 @@ shadowCTF{steppingstone}
 
 Le fichier de l'épreuve est disponible ici : [Unchallenging](https://github.com/Zyrfex/CTF/raw/main/2021/Shadow%20CTF/Reverse%20Engineering/Unchallenging/unchallenging)
 
-Je charge le programme dans [Ghidra](https://ghidra-sre.org/) et j'affiche la fonction main :
+Je charge le programme dans [Ghidra](https://ghidra-sre.org/) et j'affiche la fonction **main** :
 <p align="center">
   <img src="https://raw.githubusercontent.com/Zyrfex/CTF/main/2021/Shadow%20CTF/Reverse%20Engineering/Unchallenging/Ghidra.PNG" alt="Ghidra" align="center">
 </p>
@@ -53,7 +53,7 @@ shadowCTF{Ar@b1an_night5}
 
 Le fichier de l'épreuve est disponible ici : [Key2sucess](https://github.com/Zyrfex/CTF/raw/main/2021/Shadow%20CTF/Reverse%20Engineering/Key2success/key2sucess)
 
-Je charge le programme dans [Ghidra](https://ghidra-sre.org/) et j'affiche la fonction main :
+Je charge le programme dans [Ghidra](https://ghidra-sre.org/) et j'affiche la fonction **main** :
 <p align="center">
   <img src="https://raw.githubusercontent.com/Zyrfex/CTF/main/2021/Shadow%20CTF/Reverse%20Engineering/Key2success/Ghidra.png" alt="Ghidra" align="center">
 </p>
@@ -81,7 +81,7 @@ shadowCTF{Never_stop_learning}
 
 Le fichier de l'épreuve est disponible ici : [crow.out](https://github.com/Zyrfex/CTF/raw/main/2021/Shadow%20CTF/Reverse%20Engineering/Thirsty%20crow/crow.out)
 
-Je charge le programme dans [Ghidra](https://ghidra-sre.org/) et j'affiche la fonction main :
+Je charge le programme dans [Ghidra](https://ghidra-sre.org/) et j'affiche la fonction **main** :
 <p align="center">
   <img src="https://raw.githubusercontent.com/Zyrfex/CTF/main/2021/Shadow%20CTF/Reverse%20Engineering/Thirsty%20crow/Ghidra.png" alt="Ghidra" align="center">
 </p>
@@ -101,4 +101,32 @@ Une fois la modification effectuée et enregistrée, nous obtenons notre flag :
 Le voici :
 ```
 shadowCTF{Thirty_5ix_r0cksin_the_p0t}
+```
+
+### Vault (400)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Zyrfex/CTF/main/2021/Shadow%20CTF/Reverse%20Engineering/Vault/Vault.png" alt="Vault" align="center">
+</p>
+
+Le fichier de l'épreuve est disponible ici : [vault](https://github.com/Zyrfex/CTF/raw/main/2021/Shadow%20CTF/Reverse%20Engineering/Vault/vault)
+
+Je charge le programme dans [Ghidra](https://ghidra-sre.org/) et j'affiche la fonction **main** :
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Zyrfex/CTF/main/2021/Shadow%20CTF/Reverse%20Engineering/Vault/Ghidra.png" alt="Ghidra" align="center">
+</p>
+
+Tout comme l'épreuve précédente, nous modifions la condition du saut :
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Zyrfex/CTF/main/2021/Shadow%20CTF/Reverse%20Engineering/Vault/GHex.png" alt="GHex" align="center">
+</p>
+
+Une fois la modification effectuée et enregistrée, nous obtenons notre flag :
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Zyrfex/CTF/main/2021/Shadow%20CTF/Reverse%20Engineering/Vault/Console.png" alt="Console" align="center">
+</p>
+
+Le voici :
+```
+shadowCTF{sh@d0w_reversing_rul3s}
 ```
