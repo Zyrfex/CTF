@@ -4,7 +4,7 @@ Vous trouverez ci-dessous mes solutions pour ce CTF.
   
 Le flag a le format suivant :
 ```
-shadowCTF{[A-Za-z0-9_]+}
+shadowCTF{[A-Za-z0-9@ _]+}
 ```
 
 ## Reverse Engineering
@@ -129,4 +129,24 @@ Une fois la modification effectuée et enregistrée, nous obtenons notre flag :
 Le voici :
 ```
 shadowCTF{sh@d0w_reversing_rul3s}
+```
+
+## Cryptographie
+
+### Valhalla (50)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Zyrfex/CTF/main/2021/Shadow%20CTF/Cryptography/Valhalla/Valhalla.png" alt="Valhalla" align="center">
+</p>
+
+Le fichier de l'épreuve est le suivant : runes.png
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Zyrfex/CTF/main/2021/Shadow%20CTF/Cryptography/Valhalla/runes.png" alt="runes" align="center">
+</p>
+
+Une recherche sur Google me permet de trouver de quoi déchiffrer l'énigme de l'épreuve : [Rune](https://fr.wikipedia.org/wiki/Rune)
+
+Voici le flag :
+```
+shadowCTF{odin was here}
 ```
