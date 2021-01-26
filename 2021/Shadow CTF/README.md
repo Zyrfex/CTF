@@ -7,7 +7,7 @@ Le flag a le format suivant :
 shadowCTF{[A-Za-z0-9@ _]+}
 ```
 
-## Reverse Engineering
+## Rétro-ingénierie
 
 ### Warm-up (50)
 
@@ -149,4 +149,32 @@ Une recherche sur Google me permet de trouver de quoi déchiffrer l'énigme de l
 Voici le flag :
 ```
 shadowCTF{odin was here}
+```
+
+### Monk (50)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Zyrfex/CTF/main/2021/Shadow%20CTF/Cryptography/Monk/monk2.png" alt="Monk" align="center">
+</p>
+
+Le fichier de l'épreuve est le suivant : monk.png
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Zyrfex/CTF/main/2021/Shadow%20CTF/Cryptography/Monk/monk.png" alt="monk" align="center">
+</p>
+
+Après quelques recherches sur Google, je trouve qu'il s'agit de nombres des moines Cisterciens : [Convertisseur de Nombres des Moines Cisterciens en Ligne](https://www.dcode.fr/nombres-cisterciens)
+
+Les images sont donc transformées en nombres :
+```
+66 111 119 95 84 48 95 84 104 51 95 71 79 100
+```
+
+Ensuite, avec l'aide de [CyberChef - The Cyber Swiss Army Knife](https://gchq.github.io/CyberChef/#recipe=From_Decimal('Space',false)&input=NjYgMTExIDExOSA5NSA4NCA0OCA5NSA4NCAxMDQgNTEgOTUgNzEgNzkgMTAw), j'obtiens la chaîne de caractères suivante :
+```
+Bow_T0_Th3_GOd
+```
+
+Et voici le flag :
+```
+shadowCTF{Bow_T0_Th3_GOd}
 ```
