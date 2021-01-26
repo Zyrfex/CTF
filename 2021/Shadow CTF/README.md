@@ -178,3 +178,33 @@ Et voici le flag :
 ```
 shadowCTF{Bow_T0_Th3_GOd}
 ```
+
+### Hand-Work (80)
+
+*Cette épreuve a été réalisée après la fin du CTF.*
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Zyrfex/CTF/main/2021/Shadow%20CTF/Cryptography/Hand-Work/Hand-Work.png" alt="Hand-Work" align="center">
+</p>
+
+Le fichier de l'épreuve est le suivant : [Crypto.mp3](https://github.com/Zyrfex/CTF/raw/main/2021/Shadow%20CTF/Cryptography/Hand-Work/Crypto.mp3)
+
+Après avoir ralenti le fichier avec [Audacity](https://audacity.fr), nous obtenons le code suivant :
+```
+... .... .- -.. --- .-- -.-. -..-. . ....- ... -.-- -.-. .-. -.-- .--. - -----
+```
+
+Ce code est du Morse :
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Zyrfex/CTF/main/2021/Shadow%20CTF/Cryptography/Hand-Work/morse.jpg" alt="Morse" align="center">
+</p>
+
+Il nous permet d'obtenir la chaîne de caractères suivante :
+```
+SHADOWC/E4SYCRYPT0
+```
+
+Et voici le flag :
+```
+shadowCTF{e4sycrypt0}
+```
