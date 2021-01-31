@@ -27,7 +27,7 @@ Je récupère la châine suivante :
 ;secret: 100110010011
 ```
 
-Ce code binaire est converti en décimal via la suite suivant : https://www.binary-code.org/binary/16bit/0000100110010011/
+Ce code binaire est converti en décimal via le site suivant : https://www.binary-code.org/binary/16bit/0000100110010011/
 
 Ce qui me permet d'obtenir le code pour m'inscrire : **2451**
 
