@@ -84,3 +84,80 @@ Et voilà le flag :
 ```
 flag{3v3ryth1ng_1s_BACKD00R3D_0020}
 ```
+
+## Misc
+
+### Optimizer (325)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Zyrfex/CTF/main/2021/0x41414141%20CTF/Misc/Optimizer/optimizer.png" alt="Optimizer" align="center">
+</p>
+
+J'ai développé le petit programme suivant en Python :
+
+```python
+#!/usr/bin/env python3
+
+from pwn import *
+import re
+
+ip = "207.180.200.166"
+port = 9660
+reg1 = r"([0-9]+)"
+
+def getInvCount(arr, n):
+    inv_count = 0
+    for i in range(n):
+        for j in range(i + 1, n):
+            if (arr[i] > arr[j]):
+                inv_count += 1
+    return inv_count 
+
+r = remote(ip, port)
+
+# Traitement du niveau 1
+r.recvuntil("level 1: tower of hanoi\n")
+print("---------- TRAITEMENT DU NIVEAU 1 ----------")
+while True:
+	r1 = r.recvline().decode("utf-8")
+	if r1 == "> level 2 : merge sort, give me the count of inversions\n":
+		break;
+	print("Reçu : %s" % r1[:-1])
+	re1 = re.findall(reg1, r1)
+	if re1:
+		c1 = pow(2, len(re1)) - 1
+		print("Envoyé : %s" % c1)
+		r.sendline(str(c1))
+	else:
+		print("L'expression régulière ne fonctionne pas !")
+		exit
+
+# Traitement du niveau 2
+print("---------- TRAITEMENT DU NIVEAU 2 ----------")
+while True:
+	r2 = r.recvline().decode("utf-8")
+	print("Reçu : %s" % r2[:-1])
+	re2 = re.findall(reg1, r2)
+	if re2:
+		tab = []
+		for i in range(len(re2)):
+                	tab.append(int(re2[i]))
+		c2 = getInvCount(tab, len(tab))
+		print("Envoyé : %s" % c2)
+		r.sendline(str(c2))
+	else:
+		print("L'expression régulière ne fonctionne pas !")
+		exit
+```
+
+Il me permet d'obtenir la chaîne suivante :
+
+```
+> you won here's your flag flag{g077a_0pt1m1ze_3m_@ll}
+```
+
+Et le flag :
+
+```
+flag{g077a_0pt1m1ze_3m_@ll}
+```
