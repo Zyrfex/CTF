@@ -4,8 +4,8 @@ Voici l'historique des CTF auxquels j'ai participé et pour lesquels j'ai réuss
 
 |NUMERO|ANNEE |MOIS| CTF                       | POINTS | PLACE                                                           |
 |:----:|:----:|:--:|---------------------------|:------:|:---------------------------------------------------------------:|
-|22    | 2021 | 01 | [Shadow CTF](https://github.com/Zyrfex/CTF/blob/main/2021/Shadow%20CTF/README.md) | 1150   | ![](https://img.shields.io/badge/-166%20%2F%20261-orange) |
-|21    | 2021 | 01 | 0x41414141 CTF            | 190    | ![](https://img.shields.io/badge/-190%20%2F%20286-orange)       |
+|22    | 2021 | 01 | [Shadow CTF](https://github.com/Zyrfex/CTF/blob/main/2021/Shadow%20CTF/README.md) | 1150 | ![](https://img.shields.io/badge/-166%20%2F%20261-orange) |
+|21    | 2021 | 01 | [0x41414141 CTF](https://github.com/Zyrfex/CTF/blob/main/2021/0x41414141%20CTF/README.md) | 190 | ![](https://img.shields.io/badge/-190%20%2F%20286-orange)       |
 |20 | 2021 | 02 | [0xL4ughCTF](https://github.com/Zyrfex/CTF/blob/main/2021/0xL4ughCTF/README.md) | 150 | ![](https://img.shields.io/badge/-280%20%2F%20371-orange)|
 |19    | 2021 | 01 | TetCTF 2021               | 100    | ![](https://img.shields.io/badge/-429%20%2F%20519-red)          |
 |18    | 2020 | 12 | VULNCON CTF 2020          | 100    | ![](https://img.shields.io/badge/-345%20%2F%20442-red)          |
