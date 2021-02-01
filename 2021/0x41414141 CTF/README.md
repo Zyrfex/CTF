@@ -55,7 +55,7 @@ Que je décode via [CyberChef - The Cyber Swiss Army Knife](https://gchq.github.
   <img src="https://raw.githubusercontent.com/Zyrfex/CTF/main/2021/0x41414141%20CTF/Blockchain/Sanity%20Check/flag.png" alt="Flag" align="center">
 </p>
 
-Et voilà notre flag :
+Et voilà le flag :
 
 ```
 flag{1t_1s_jus7_th3_st@rt}
