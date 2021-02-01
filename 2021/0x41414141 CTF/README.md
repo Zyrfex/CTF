@@ -41,7 +41,7 @@ Ce qui me permet d'obtenir le code pour m'inscrire : **2451**
 
 Le fichier de l'épreuve est disponible ici : [chall.sol](https://raw.githubusercontent.com/Zyrfex/CTF/main/2021/0x41414141%20CTF/Blockchain/Sanity%20Check/chall.sol)
 
-J'affectue mes recherches sur le site [Etherscan](https://www.rinkeby.io)
+J'affectue mes recherches sur le site [Etherscan](https://www.rinkeby.io).
 
 Je trouve rapidement la transaction suivante :
 
