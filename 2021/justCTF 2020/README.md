@@ -15,7 +15,7 @@ justCTF{something_h3re!}
   <img src="https://raw.githubusercontent.com/Zyrfex/CTF/main/2021/justCTF%202020/Misc/Sanity%20Check/sanity_check.png" alt="Sanity Check" align="center">
 </p>
 
-Compte tenu de la date de sortie de cette vidéo YouTube (1er novembre 2009), après avoir regardé la vidéo, j'exclu que le flag soit dedans.
+Compte tenu de la date de sortie de cette vidéo YouTube (1er novembre 2009), après avoir regardé la vidéo, j'exclue que le flag soit dedans.
 
 Cependant, dans son titre, un mot me met la puce à l'oreille : Rule
 
