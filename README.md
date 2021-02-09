@@ -4,7 +4,8 @@ Voici l'historique des CTF auxquels j'ai participé et pour lesquels j'ai réuss
 
 |NUMERO|ANNEE |MOIS| CTF                       | POINTS | PLACE                                                           |
 |:----:|:----:|:--:|---------------------------|:------:|:---------------------------------------------------------------:|
-| 24   | 2021 | 02 | TrollCAT CTF 2021         | 225    | ![](https://img.shields.io/badge/-225%20%2F%20355-orange)       |
+| 25   | 2021 | 02 | TrollCAT CTF 2021         | 225    | ![](https://img.shields.io/badge/-225%20%2F%20355-orange)       |
+| 26   | 2021 | 02 | DiceCTF 2021              | 1      | ![](https://img.shields.io/badge/-741%20%2F%201059-orange)      |
 | 23   | 2021 | 01 | [justCTF 2020](https://github.com/Zyrfex/CTF/blob/main/2021/justCTF%202020/README.md) | 50 | ![](https://img.shields.io/badge/-685%20%2F%20804-red)          |
 |22    | 2021 | 01 | [Shadow CTF](https://github.com/Zyrfex/CTF/blob/main/2021/Shadow%20CTF/README.md) | 1150 | ![](https://img.shields.io/badge/-166%20%2F%20261-orange) |
 |21    | 2021 | 01 | [0x41414141 CTF](https://github.com/Zyrfex/CTF/blob/main/2021/0x41414141%20CTF/README.md) | 190 | ![](https://img.shields.io/badge/-190%20%2F%20286-orange)       |
